@@ -2,10 +2,10 @@
 //cambiar los nombres de codigo corto y largo
 const SnapSDK={
     
-    CodeLarge: {
+    longNumbering: {
         validator:{
             //en el elemento datafiles de mi obj, deberia ir codelarge o viceversa para seguir el ejemplo de la libreria excel
-            dataFiles:require('./src/longNumbering/validator/CodeLarge'),
+            DataFiles:require('./src/longNumbering/validator/DataFiles'),
         },
         helpers:{
             
@@ -13,12 +13,12 @@ const SnapSDK={
     },
     Mailing: {
         validator:{
-            dataFiles:require('./src/mailing/validator/Mailing'),
+            DataFiles:require('./src/mailing/validator/DataFiles'),
         }
     },
-    ShortCode: {
+    shortNumbering: {
         validator:{
-            dataFiles:require('./src/shortNumbering/validator/ShortCode'),
+            DataFiles:require('./src/shortNumbering/validator/DataFiles'),
         }
     },
   

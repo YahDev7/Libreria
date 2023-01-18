@@ -1,4 +1,4 @@
-//cada funcion que se repite con sus modulos
+//cada funcion se repite sus modulos
 const SnapSDK={
     validators:{
         dataFiles:{

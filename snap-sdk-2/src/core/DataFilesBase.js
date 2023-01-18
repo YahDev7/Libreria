@@ -1,4 +1,4 @@
-class DataFiles {
+class DataFilesBase {
     constructor(){
 
     }
@@ -11,3 +11,5 @@ class DataFiles {
         console.log("validando rows");
     }
 }
+
+module.exports=DataFilesBase;
